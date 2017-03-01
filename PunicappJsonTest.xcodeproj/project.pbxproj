@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22D8B0771E643AC9003A50EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D8B0761E643AC9003A50EE /* main.m */; };
+		22D8B07A1E643AC9003A50EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D8B0791E643AC9003A50EE /* AppDelegate.m */; };
+		22D8B0801E643AC9003A50EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D8B07E1E643AC9003A50EE /* Main.storyboard */; };
+		22D8B0821E643AC9003A50EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D8B0811E643AC9003A50EE /* Assets.xcassets */; };
+		22D8B0851E643AC9003A50EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D8B0831E643AC9003A50EE /* LaunchScreen.storyboard */; };
+		22D8B0941E65C3E9003A50EE /* PJTAPIRequestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D8B0931E65C3E9003A50EE /* PJTAPIRequestHelper.m */; };
+		22D8B09C1E65C6C6003A50EE /* CheckNetHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D8B0991E65C6C6003A50EE /* CheckNetHelper.m */; };
+		22D8B09D1E65C6C6003A50EE /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D8B09B1E65C6C6003A50EE /* Reachability.m */; };
+		22D8B0A21E65C998003A50EE /* PJTItemListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D8B0A11E65C998003A50EE /* PJTItemListViewController.m */; };
+		22D8B0A71E65CA4D003A50EE /* PJTMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D8B0A51E65CA4D003A50EE /* PJTMainTableViewCell.m */; };
+		22D8B0A81E65CA4D003A50EE /* PJTMainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22D8B0A61E65CA4D003A50EE /* PJTMainTableViewCell.xib */; };
+		22D8B0AC1E65CD38003A50EE /* PJTItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D8B0AB1E65CD38003A50EE /* PJTItem.m */; };
+		22D8B0B01E65CF74003A50EE /* PJTItemList.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D8B0AF1E65CF74003A50EE /* PJTItemList.m */; };
+		22D8B0B31E65E492003A50EE /* PJTPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D8B0B21E65E492003A50EE /* PJTPageViewController.m */; };
+		22D8B0B61E65E502003A50EE /* PJTItemDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D8B0B51E65E502003A50EE /* PJTItemDetailsViewController.m */; };
+		46076385C21B50AF7F71B180 /* libPods-PunicappJsonTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 931FF1A90DD2ABC75A280DDD /* libPods-PunicappJsonTest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22D8B0721E643AC9003A50EE /* PunicappJsonTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PunicappJsonTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D8B0761E643AC9003A50EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22D8B0781E643AC9003A50EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22D8B0791E643AC9003A50EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22D8B07F1E643AC9003A50EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22D8B0811E643AC9003A50EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22D8B0841E643AC9003A50EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22D8B0861E643AC9003A50EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22D8B0921E65C3E9003A50EE /* PJTAPIRequestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJTAPIRequestHelper.h; path = Utility/APIRequest/PJTAPIRequestHelper.h; sourceTree = "<group>"; };
+		22D8B0931E65C3E9003A50EE /* PJTAPIRequestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJTAPIRequestHelper.m; path = Utility/APIRequest/PJTAPIRequestHelper.m; sourceTree = "<group>"; };
+		22D8B0951E65C46B003A50EE /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		22D8B0961E65C525003A50EE /* PJT-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PJT-PrefixHeader.pch"; sourceTree = "<group>"; };
+		22D8B0981E65C6C6003A50EE /* CheckNetHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckNetHelper.h; sourceTree = "<group>"; };
+		22D8B0991E65C6C6003A50EE /* CheckNetHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckNetHelper.m; sourceTree = "<group>"; };
+		22D8B09A1E65C6C6003A50EE /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		22D8B09B1E65C6C6003A50EE /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		22D8B0A01E65C998003A50EE /* PJTItemListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJTItemListViewController.h; path = ItemList/PJTItemListViewController.h; sourceTree = "<group>"; };
+		22D8B0A11E65C998003A50EE /* PJTItemListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJTItemListViewController.m; path = ItemList/PJTItemListViewController.m; sourceTree = "<group>"; };
+		22D8B0A41E65CA4D003A50EE /* PJTMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJTMainTableViewCell.h; path = ItemList/Cells/PJTMainTableViewCell.h; sourceTree = "<group>"; };
+		22D8B0A51E65CA4D003A50EE /* PJTMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJTMainTableViewCell.m; path = ItemList/Cells/PJTMainTableViewCell.m; sourceTree = "<group>"; };
+		22D8B0A61E65CA4D003A50EE /* PJTMainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PJTMainTableViewCell.xib; path = ItemList/Cells/PJTMainTableViewCell.xib; sourceTree = "<group>"; };
+		22D8B0AA1E65CD38003A50EE /* PJTItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJTItem.h; path = Item/PJTItem.h; sourceTree = "<group>"; };
+		22D8B0AB1E65CD38003A50EE /* PJTItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJTItem.m; path = Item/PJTItem.m; sourceTree = "<group>"; };
+		22D8B0AE1E65CF74003A50EE /* PJTItemList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJTItemList.h; path = ItemList/PJTItemList.h; sourceTree = "<group>"; };
+		22D8B0AF1E65CF74003A50EE /* PJTItemList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJTItemList.m; path = ItemList/PJTItemList.m; sourceTree = "<group>"; };
+		22D8B0B11E65E492003A50EE /* PJTPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJTPageViewController.h; path = ItemDetails/PJTPageViewController.h; sourceTree = "<group>"; };
+		22D8B0B21E65E492003A50EE /* PJTPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJTPageViewController.m; path = ItemDetails/PJTPageViewController.m; sourceTree = "<group>"; };
+		22D8B0B41E65E502003A50EE /* PJTItemDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PJTItemDetailsViewController.h; path = ItemDetails/PJTItemDetailsViewController.h; sourceTree = "<group>"; };
+		22D8B0B51E65E502003A50EE /* PJTItemDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PJTItemDetailsViewController.m; path = ItemDetails/PJTItemDetailsViewController.m; sourceTree = "<group>"; };
+		54BD9B692056A86B66750337 /* Pods-PunicappJsonTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PunicappJsonTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-PunicappJsonTest/Pods-PunicappJsonTest.release.xcconfig"; sourceTree = "<group>"; };
+		8050213EC345CFC4995F6749 /* Pods-PunicappJsonTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PunicappJsonTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PunicappJsonTest/Pods-PunicappJsonTest.debug.xcconfig"; sourceTree = "<group>"; };
+		931FF1A90DD2ABC75A280DDD /* libPods-PunicappJsonTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PunicappJsonTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22D8B06F1E643AC9003A50EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46076385C21B50AF7F71B180 /* libPods-PunicappJsonTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E03C29584FF3309FBB22DD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8050213EC345CFC4995F6749 /* Pods-PunicappJsonTest.debug.xcconfig */,
+				54BD9B692056A86B66750337 /* Pods-PunicappJsonTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1E8B9582CF9268E5B68068F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				931FF1A90DD2ABC75A280DDD /* libPods-PunicappJsonTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22D8B0691E643AC9003A50EE = {
+			isa = PBXGroup;
+			children = (
+				22D8B0741E643AC9003A50EE /* PunicappJsonTest */,
+				22D8B0731E643AC9003A50EE /* Products */,
+				1E03C29584FF3309FBB22DD5 /* Pods */,
+				1E8B9582CF9268E5B68068F9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22D8B0731E643AC9003A50EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22D8B0721E643AC9003A50EE /* PunicappJsonTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22D8B0741E643AC9003A50EE /* PunicappJsonTest */ = {
+			isa = PBXGroup;
+			children = (
+				22D8B0901E65C3B0003A50EE /* Utility */,
+				22D8B08C1E643B14003A50EE /* Model */,
+				22D8B08D1E643B14003A50EE /* Storyboards */,
+				22D8B08E1E643B14003A50EE /* ViewControllers */,
+				22D8B0781E643AC9003A50EE /* AppDelegate.h */,
+				22D8B0791E643AC9003A50EE /* AppDelegate.m */,
+				22D8B0811E643AC9003A50EE /* Assets.xcassets */,
+				22D8B0831E643AC9003A50EE /* LaunchScreen.storyboard */,
+				22D8B0861E643AC9003A50EE /* Info.plist */,
+				22D8B0751E643AC9003A50EE /* Supporting Files */,
+			);
+			path = PunicappJsonTest;
+			sourceTree = "<group>";
+		};
+		22D8B0751E643AC9003A50EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22D8B0761E643AC9003A50EE /* main.m */,
+				22D8B0951E65C46B003A50EE /* Constants.h */,
+				22D8B0961E65C525003A50EE /* PJT-PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22D8B08C1E643B14003A50EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22D8B0AD1E65CF52003A50EE /* ItemList */,
+				22D8B0A91E65CD1A003A50EE /* Item */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		22D8B08D1E643B14003A50EE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				22D8B07E1E643AC9003A50EE /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		22D8B08E1E643B14003A50EE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				22D8B09F1E65C97A003A50EE /* ItemDetails */,
+				22D8B09E1E65C968003A50EE /* ItemList */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		22D8B0901E65C3B0003A50EE /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				22D8B0971E65C6C6003A50EE /* CheckNetHelper */,
+				22D8B0911E65C3B9003A50EE /* APIRequest */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		22D8B0911E65C3B9003A50EE /* APIRequest */ = {
+			isa = PBXGroup;
+			children = (
+				22D8B0921E65C3E9003A50EE /* PJTAPIRequestHelper.h */,
+				22D8B0931E65C3E9003A50EE /* PJTAPIRequestHelper.m */,
+			);
+			name = APIRequest;
+			sourceTree = "<group>";
+		};
+		22D8B0971E65C6C6003A50EE /* CheckNetHelper */ = {
+			isa = PBXGroup;
+			children = (
+				22D8B0981E65C6C6003A50EE /* CheckNetHelper.h */,
+				22D8B0991E65C6C6003A50EE /* CheckNetHelper.m */,
+				22D8B09A1E65C6C6003A50EE /* Reachability.h */,
+				22D8B09B1E65C6C6003A50EE /* Reachability.m */,
+			);
+			name = CheckNetHelper;
+			path = Utility/CheckNetHelper;
+			sourceTree = "<group>";
+		};
+		22D8B09E1E65C968003A50EE /* ItemList */ = {
+			isa = PBXGroup;
+			children = (
+				22D8B0A31E65CA21003A50EE /* Cells */,
+				22D8B0A01E65C998003A50EE /* PJTItemListViewController.h */,
+				22D8B0A11E65C998003A50EE /* PJTItemListViewController.m */,
+			);
+			name = ItemList;
+			sourceTree = "<group>";
+		};
+		22D8B09F1E65C97A003A50EE /* ItemDetails */ = {
+			isa = PBXGroup;
+			children = (
+				22D8B0B11E65E492003A50EE /* PJTPageViewController.h */,
+				22D8B0B21E65E492003A50EE /* PJTPageViewController.m */,
+				22D8B0B41E65E502003A50EE /* PJTItemDetailsViewController.h */,
+				22D8B0B51E65E502003A50EE /* PJTItemDetailsViewController.m */,
+			);
+			name = ItemDetails;
+			sourceTree = "<group>";
+		};
+		22D8B0A31E65CA21003A50EE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				22D8B0A41E65CA4D003A50EE /* PJTMainTableViewCell.h */,
+				22D8B0A51E65CA4D003A50EE /* PJTMainTableViewCell.m */,
+				22D8B0A61E65CA4D003A50EE /* PJTMainTableViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		22D8B0A91E65CD1A003A50EE /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				22D8B0AA1E65CD38003A50EE /* PJTItem.h */,
+				22D8B0AB1E65CD38003A50EE /* PJTItem.m */,
+			);
+			name = Item;
+			sourceTree = "<group>";
+		};
+		22D8B0AD1E65CF52003A50EE /* ItemList */ = {
+			isa = PBXGroup;
+			children = (
+				22D8B0AE1E65CF74003A50EE /* PJTItemList.h */,
+				22D8B0AF1E65CF74003A50EE /* PJTItemList.m */,
+			);
+			name = ItemList;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22D8B0711E643AC9003A50EE /* PunicappJsonTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22D8B0891E643AC9003A50EE /* Build configuration list for PBXNativeTarget "PunicappJsonTest" */;
+			buildPhases = (
+				430A28D2EA3B38E901480D87 /* [CP] Check Pods Manifest.lock */,
+				22D8B06E1E643AC9003A50EE /* Sources */,
+				22D8B06F1E643AC9003A50EE /* Frameworks */,
+				22D8B0701E643AC9003A50EE /* Resources */,
+				9B4BDD0AD10874F74535B45B /* [CP] Embed Pods Frameworks */,
+				57043D4BCD964F47459B278D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PunicappJsonTest;
+			productName = PunicappJsonTest;
+			productReference = 22D8B0721E643AC9003A50EE /* PunicappJsonTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22D8B06A1E643AC9003A50EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PJT;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = PunicApp;
+				TargetAttributes = {
+					22D8B0711E643AC9003A50EE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 335Z6HSJUS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 22D8B06D1E643AC9003A50EE /* Build configuration list for PBXProject "PunicappJsonTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22D8B0691E643AC9003A50EE;
+			productRefGroup = 22D8B0731E643AC9003A50EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22D8B0711E643AC9003A50EE /* PunicappJsonTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22D8B0701E643AC9003A50EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D8B0851E643AC9003A50EE /* LaunchScreen.storyboard in Resources */,
+				22D8B0821E643AC9003A50EE /* Assets.xcassets in Resources */,
+				22D8B0801E643AC9003A50EE /* Main.storyboard in Resources */,
+				22D8B0A81E65CA4D003A50EE /* PJTMainTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		430A28D2EA3B38E901480D87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		57043D4BCD964F47459B278D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PunicappJsonTest/Pods-PunicappJsonTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B4BDD0AD10874F74535B45B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PunicappJsonTest/Pods-PunicappJsonTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22D8B06E1E643AC9003A50EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D8B09C1E65C6C6003A50EE /* CheckNetHelper.m in Sources */,
+				22D8B0AC1E65CD38003A50EE /* PJTItem.m in Sources */,
+				22D8B0B61E65E502003A50EE /* PJTItemDetailsViewController.m in Sources */,
+				22D8B0A71E65CA4D003A50EE /* PJTMainTableViewCell.m in Sources */,
+				22D8B0B01E65CF74003A50EE /* PJTItemList.m in Sources */,
+				22D8B0941E65C3E9003A50EE /* PJTAPIRequestHelper.m in Sources */,
+				22D8B0A21E65C998003A50EE /* PJTItemListViewController.m in Sources */,
+				22D8B07A1E643AC9003A50EE /* AppDelegate.m in Sources */,
+				22D8B0771E643AC9003A50EE /* main.m in Sources */,
+				22D8B0B31E65E492003A50EE /* PJTPageViewController.m in Sources */,
+				22D8B09D1E65C6C6003A50EE /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22D8B07E1E643AC9003A50EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22D8B07F1E643AC9003A50EE /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		22D8B0831E643AC9003A50EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22D8B0841E643AC9003A50EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22D8B0871E643AC9003A50EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22D8B0881E643AC9003A50EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22D8B08A1E643AC9003A50EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8050213EC345CFC4995F6749 /* Pods-PunicappJsonTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 335Z6HSJUS;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PJT-PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
+				INFOPLIST_FILE = PunicappJsonTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.punicapp.jsontest.PunicappJsonTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22D8B08B1E643AC9003A50EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54BD9B692056A86B66750337 /* Pods-PunicappJsonTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 335Z6HSJUS;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PJT-PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
+				INFOPLIST_FILE = PunicappJsonTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.punicapp.jsontest.PunicappJsonTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22D8B06D1E643AC9003A50EE /* Build configuration list for PBXProject "PunicappJsonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D8B0871E643AC9003A50EE /* Debug */,
+				22D8B0881E643AC9003A50EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22D8B0891E643AC9003A50EE /* Build configuration list for PBXNativeTarget "PunicappJsonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D8B08A1E643AC9003A50EE /* Debug */,
+				22D8B08B1E643AC9003A50EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22D8B06A1E643AC9003A50EE /* Project object */;
+}
